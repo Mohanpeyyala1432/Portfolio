@@ -15,7 +15,6 @@ const projects = [
       'Responsive and animated portfolio website built to showcase my skills, projects, and contact details.',
     tech: 'React.js, CSS3, Framer Motion, React Icons',
     github: 'https://github.com/Mohanpeyyala1432',
-    live: 'https://your-portfolio.netlify.app',
   },
 ];
 
@@ -76,24 +75,6 @@ const Projects = () => {
             </p>
 
             <div style={{ marginTop: '1rem' }}>
-              {project.live && (
-                <a
-                  href={project.live}
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{
-                    marginRight: '1rem',
-                    padding: '0.6rem 1.2rem',
-                    backgroundColor: '#64ffda',
-                    color: '#0a192f',
-                    borderRadius: '6px',
-                    textDecoration: 'none',
-                    fontWeight: 'bold',
-                  }}
-                >
-                  Live Demo
-                </a>
-              )}
               <a
                 href={project.github}
                 target="_blank"
